@@ -1,0 +1,19 @@
+{
+  "name": "laravel-mix-filesystem-deployment",
+  "version": "1.0.0",
+  "description": "Deploy compiled assets to the filesystem",
+  "main": "index.js",
+  "author": "Elisha Witte <elishawitte@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "globby": "^11.0.0",
+    "tiny-async-pool": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "multimatch": "^4.0.0"
+  }
+}
