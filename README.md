@@ -55,7 +55,7 @@ Configure the plugin by passing an options object as the first argument.
 | `files`           | `['**/*']`                                          | Whitelist of files that should be copied.                                                                                                                                                                                                     |
 | `clear`           | true                                                | Should the `deployPath` directory be cleared before copying files?                                                                                                                                                                            |
 | `manifest`        | `mix-manifest.json` inside the `publicPath` folder. | Contents of your `mix-manifest.json` file.                                                                                                                                                                                                    |
-| **`deployPaths`** | `[]`                                                | **REQUIRED**. List of paths where the assets should be copied to.                                                                                                                                                                             |
+| **`deployPaths`** | `[]`                                                | **`REQUIRED`**. List of paths where the assets should be copied to.                                                                                                                                                                           |
 
 ## Example
 
